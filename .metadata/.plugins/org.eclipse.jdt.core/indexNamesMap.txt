@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-file:/E:/PROGRAMAÇÃO/1%20GENERATION/Java/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
-meta_index
