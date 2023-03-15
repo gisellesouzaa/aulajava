@@ -26,9 +26,9 @@ public class Aula_01 {
 		
 		//Entre parenteses para calcular:
 		//Aplicando a máscara de formatação df.format()
-		System.out.println("Soma: " + (numero1 + numero2));
-		System.out.println("Subtração: " + (numero1 + numero2));
-		System.out.println("Divisão: " + (numero1 + numero2));
+		System.out.println("Soma: " + df.format((numero1 + numero2)));
+		System.out.println("Subtração: " + df.format((numero1 + numero2)));
+		System.out.println("Divisão: " + df.format((numero1 + numero2)));
 		
 		System.out.println("Multiplicação: " + df.format((numero1 + numero2)));
 		System.out.println("Potência: " +  df.format(Math.pow(numero1, numero2)));
