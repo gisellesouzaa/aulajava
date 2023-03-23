@@ -16,13 +16,16 @@ public class Exercicio04_matriz {
 		for (int iLinha = 0; iLinha < 10.0; iLinha++) {
 			//nota aluno - colunas
 			for (int iColuna = 0; iColuna < 4.0; iColuna++) {
-				System.out.println("Digite uma nota: ");
+				//'printf' para indicar formatação
+				//'%d' será substituído pelas variáveis indicadas na frente e separadas por vírgula 
+				System.out.printf("Digite a %dº nota do %dº participante: ", iColuna + 1, iLinha + 1 );
 				matriz[iLinha][iColuna] = leia.nextFloat();
 				somaNota += matriz[iLinha][iColuna];
 			}
 			
 			vetorMediaAluno[iLinha] = somaNota/4;
-			somaNota = 0;
+			somaNota = 0.0f;
+			//0.0f é inserido o f para indicar que é float. l para long
 		}
 		
 		for (int iLinha = 0; iLinha < 10.0; iLinha++) {
@@ -32,6 +35,11 @@ public class Exercicio04_matriz {
 		
 		leia.close();
 
+		/*
+		 matriz = [linha/vetor][coluna]
+		 matriz.lenght = descobre a quantidade de linhas
+		 matriz[linha].lenght = descobre a quantidade de colunas
+		 */
 	}
 }
 

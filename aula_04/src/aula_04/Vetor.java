@@ -1,5 +1,6 @@
 package aula_04;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Vetor {
